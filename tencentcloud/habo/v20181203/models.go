@@ -15,9 +15,9 @@
 package v20181203
 
 import (
-    "encoding/json"
+	"encoding/json"
 
-    tchttp "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http"
+	tchttp "github.com/yiv/tencentcloud-sdk-go/tencentcloud/common/http"
 )
 
 type DescribeStatusRequest struct {
@@ -31,12 +31,12 @@ type DescribeStatusRequest struct {
 }
 
 func (r *DescribeStatusRequest) ToJsonString() string {
-    b, _ := json.Marshal(r)
-    return string(b)
+	b, _ := json.Marshal(r)
+	return string(b)
 }
 
 func (r *DescribeStatusRequest) FromJsonString(s string) error {
-    return json.Unmarshal([]byte(s), &r)
+	return json.Unmarshal([]byte(s), &r)
 }
 
 type DescribeStatusResponse struct {
@@ -58,12 +58,12 @@ type DescribeStatusResponse struct {
 }
 
 func (r *DescribeStatusResponse) ToJsonString() string {
-    b, _ := json.Marshal(r)
-    return string(b)
+	b, _ := json.Marshal(r)
+	return string(b)
 }
 
 func (r *DescribeStatusResponse) FromJsonString(s string) error {
-    return json.Unmarshal([]byte(s), &r)
+	return json.Unmarshal([]byte(s), &r)
 }
 
 type StartAnalyseRequest struct {
@@ -80,12 +80,12 @@ type StartAnalyseRequest struct {
 }
 
 func (r *StartAnalyseRequest) ToJsonString() string {
-    b, _ := json.Marshal(r)
-    return string(b)
+	b, _ := json.Marshal(r)
+	return string(b)
 }
 
 func (r *StartAnalyseRequest) FromJsonString(s string) error {
-    return json.Unmarshal([]byte(s), &r)
+	return json.Unmarshal([]byte(s), &r)
 }
 
 type StartAnalyseResponse struct {
@@ -107,10 +107,10 @@ type StartAnalyseResponse struct {
 }
 
 func (r *StartAnalyseResponse) ToJsonString() string {
-    b, _ := json.Marshal(r)
-    return string(b)
+	b, _ := json.Marshal(r)
+	return string(b)
 }
 
 func (r *StartAnalyseResponse) FromJsonString(s string) error {
-    return json.Unmarshal([]byte(s), &r)
+	return json.Unmarshal([]byte(s), &r)
 }

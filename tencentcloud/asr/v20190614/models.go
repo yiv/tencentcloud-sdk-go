@@ -17,7 +17,7 @@ package v20190614
 import (
     "encoding/json"
 
-    tchttp "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http"
+    tchttp "github.com/yiv/tencentcloud-sdk-go/tencentcloud/common/http"
 )
 
 type CreateRecTaskRequest struct {

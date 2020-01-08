@@ -15,9 +15,9 @@
 package v20190321
 
 import (
-    "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
-    tchttp "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http"
-    "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"
+    "github.com/yiv/tencentcloud-sdk-go/tencentcloud/common"
+    tchttp "github.com/yiv/tencentcloud-sdk-go/tencentcloud/common/http"
+    "github.com/yiv/tencentcloud-sdk-go/tencentcloud/common/profile"
 )
 
 const APIVersion = "2019-03-21"
